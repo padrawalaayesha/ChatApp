@@ -1,0 +1,9 @@
+<div class="container">
+    <%flash.each do|name, msg|%>
+      <div class= "ui <%=name%> message transition">
+      <i class="close icon"></i>
+        <div class="header">
+          <%=msg%>
+        </div>
+    <%end%>
+</div>
