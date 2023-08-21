@@ -2,3 +2,12 @@
 .chatbox{
     height: 550px;
 }
+#messages{
+    height: 15em;
+    overflow: auto;
+}
+.input{
+    button{
+        display: none;
+    }
+}
